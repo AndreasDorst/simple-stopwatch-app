@@ -1,0 +1,52 @@
+.stopwatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stopwatch-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.stopwatch-display {
+    background-color: #333;
+    color: #00ff00;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-family: 'LED Digital 7', monospace;
+}
+
+@font-face {
+    font-family: 'LED Digital 7';
+    src: url('../assets/fonts/led_digital_7.ttf') format('woff');
+}
+
+.stopwatch-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.stopwatch-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.stopwatch-button:hover {
+    background-color: #0056b3;
+}
